@@ -1,6 +1,7 @@
 # Start Payna Finance Project 
 
-Project is prepared .......
+Payna Project Desktop and Mobile responsive versions Completed.
+Project developed with Html and Css.
 
 ## Online Demo
 
