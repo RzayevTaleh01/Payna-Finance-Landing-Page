@@ -230,7 +230,7 @@ nav ul li a:hover {
 
 .s-6-text-buttons {
   position: relative;
-  
+
 }
 .s-6-text-buttons .span {
   border: none;
@@ -257,10 +257,31 @@ nav ul li a:hover {
   transform: scale(1.1);
 }
 
+/*Footer*/
+
+footer{  
+  color: #24292F;
+  font-weight: 900;
+  width: 100%;
+  padding: 20px;
+
+}
+footer .container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+footer a{
+  color: #f06157;
+}
+
 @media (max-width: 900px) {
   nav ul {
     display: flex;
     flex-direction: column;
+    display: none;
+  }
+  .nav-buttons{
     display: none;
   }
   .s-2 article {
