@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Puppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 a {
   text-decoration: none;
@@ -163,26 +163,71 @@ nav ul li a:hover {
   margin-top: 70px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 130px;
 }
 .s-5-article{
-
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.s-5-article .s-5-items{
+.s-5-items{
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  width: 375px;
 }
  .s-5-i-text h3{
    margin-bottom: 12px;
+   font-size: 20px;
  }
  .s-5-i-text p{
    width: 70%;
    color: #575455;
    font-weight: 400;
+   line-height: 28px;
  }
 
+ /* Section 6 */
 
+.s-6{
+  margin-bottom: 94px;
 
+}
+
+.s-6 article{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.s-6 article .img img{
+  width: 80%;
+}
+
+.s-6-text h4{
+  font-weight: 700;
+  color: #F75C4E;
+
+}
+.s-6-text h1{
+  margin-top: 6px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 54px;
+
+}
+.s-6-text p{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #575455;
+  width: 80%;
+}
+
+.s-6-text-buttons{
+
+}
 
 
 
