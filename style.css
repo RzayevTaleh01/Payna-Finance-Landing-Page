@@ -113,7 +113,7 @@ nav ul li a:hover {
 }
 /* Section 3 */
 .s-3 {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .s-3 article {
   display: flex;
@@ -230,6 +230,7 @@ nav ul li a:hover {
 
 .s-6-text-buttons {
   position: relative;
+  
 }
 .s-6-text-buttons .span {
   border: none;
@@ -244,7 +245,7 @@ nav ul li a:hover {
 }
 .s-6-text-buttons button {
   position: absolute;
-  right: 25%;
+  right: 0;
   background-color: #1f7cff;
   color: #fff;
   padding: 12px 50px;
@@ -256,7 +257,7 @@ nav ul li a:hover {
   transform: scale(1.1);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   nav ul {
     display: flex;
     flex-direction: column;
@@ -301,4 +302,41 @@ nav ul li a:hover {
   .s-4 p {
     width: 100%;
   }
+
+ /* Section 5 */
+
+
+.s-5-items {
+  width: 100%;
+}
+.s-5-i-text p {
+  width: 100%;
+}
+
+/*Section 6*/
+
+.s-6 article {
+  gap: 20px;
+  flex-direction: column;
+  text-align: center;
+}
+.s-6 article .img img {
+  width: 100%;
+}
+
+.s-6-text h1 {
+  font-size: 28px;
+}
+.s-6-text p {
+  width: 100%;
+}
+.s-6-text-buttons button {
+    right: 0;
+    top: 50px;
+    width: 100%;
+}
+.s-6-text-buttons input {
+  width: 100%;
+}
+
 }
